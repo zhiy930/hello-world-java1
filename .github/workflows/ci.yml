@@ -20,7 +20,7 @@ jobs:
         distribution: 'adopt'
         java-version: '17'
 
-    - name: Build with Gradle
+    - name: Build code with Gradle
       run: gradle build 
 
     - name: Upload Build Artifacts
